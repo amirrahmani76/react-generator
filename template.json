@@ -1,0 +1,589 @@
+{
+    "c-1": {
+      "name": "image-banner",
+      "class": "gls-image-banner",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText?": "string",
+        "type": ["center-text", "start-text", "end-btn"]
+      }
+    },
+    "c-2": {
+      "name": "center-text-image-banner",
+      "class": "gls-center-text-image-banner",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-3": {
+      "name": "end-text-image-banner",
+      "class": "gls-end-text-image-banner",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-4": {
+      "name": "top-text-image-banner",
+      "class": "gls-top-text-image-banner",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-5": {
+      "name": "simple-text-banner",
+      "class": "gls-simple-text-banner",
+      "props": {
+        "title": "string",
+        "text?": "string",
+        "bgColor?": "Colors",
+        "reversOrder?": "boolean",
+        "titleColor?": "Colors",
+        "textColor?": "Colors"
+      }
+    },
+    "c-6": {
+      "name": "liner-text-banner",
+      "class": "gls-liner-text-banner",
+      "props": {
+        "title": "string",
+        "text?": "string",
+        "bgColor?": "Colors",
+        "reversOrder?": "boolean",
+        "titleColor?": "Colors",
+        "textColor?": "Colors"
+      }
+    },
+    "c-7": {
+      "name": "text-banner",
+      "class": "gls-text-banner",
+      "props": {
+        "title": "string",
+        "text?": "string",
+        "bgColor?": "Colors",
+        "reversOrder?": "boolean",
+        "titleColor?": "Colors",
+        "textColor?": "Colors"
+      }
+    },
+    "c-8": {
+      "name": "overly-image-banner",
+      "class": "gls-overly-image-banner",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "logos": "string[]"
+      }
+    },
+    "c-9": {
+      "name": "date-card",
+      "class": "gls-date-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "date?": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText?": "string",
+        "dir?": "'ltr'"
+      }
+    },
+    "c-10": {
+      "name": "custom-card",
+      "class": "gls-custom-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText": "string",
+        "dir?": "'ltr'"
+      }
+    },
+    "c-11": {
+      "name": "simple-product-card",
+      "class": "gls-simple-product-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText": "string",
+        "dir?": "'ltr'"
+      }
+    },
+    "c-12": {
+      "name": "card",
+      "class": "gls-card",
+      "props": {
+        "topTitle?": "string",
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText?": "string",
+        "dir?": "'ltr'"
+      }
+    },
+    "c-13": {
+      "name": "divider-card",
+      "class": "gls-divider-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "dir?": "'ltr'"
+      }
+    },
+    "c-14": {
+      "name": "right-image-card",
+      "class": "gls-right-image-card",
+      "props": {
+        "topTitle": "string",
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "button?": "boolean"
+      }
+    },
+    "c-15": {
+      "name": "logo-button-card",
+      "class": "gls-logo-button-card",
+      "props": {
+        "logo": "string",
+        "topTitle": "string",
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-16": {
+      "name": "logo-card",
+      "class": "gls-logo-card",
+      "props": {
+        "logo": "string",
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-17": {
+      "name": "padding-card",
+      "class": "gls-padding-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText": "string"
+      }
+    },
+    "c-18": {
+      "name": "product-card",
+      "class": "gls-product-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText": "string",
+        "lang": "string",
+        "degrees": "string[]",
+        "colors": "string[]",
+        "opacity": "string[]",
+        "categories": "string[]",
+        "patterns": "string[]",
+        "companies": "string[]",
+        "sizes": "string[]"
+      }
+    },
+    "c-19": {
+      "name": "multiple-card",
+      "class": "gls-multiple-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "bgColor?": "Colors"
+      }
+    },
+    "c-20": {
+      "name": "portrait-multiple-card",
+      "class": "gls-portrait-multiple-card",
+      "props": {
+        "topTitle": "string",
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-21": {
+      "name": "left-image-card",
+      "class": "gls-left-image-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "items": "string[]"
+      }
+    },
+    "c-22": {
+      "name": "two-row-card",
+      "class": "gls-two-row-card",
+      "props": {
+        "topTitle": "string",
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText": "string"
+      }
+    },
+    "c-23": {
+      "name": "person-card",
+      "class": "gls-person-card",
+      "props": {
+        "topTitle": "string",
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "btnText": "string"
+      }
+    },
+    "c-24": {
+      "name": "triple-card",
+      "class": "gls-triple-card",
+      "props": {
+        "title": "string",
+        "text": [
+          {
+            "title": "string",
+            "text": "string"
+          }
+        ],
+        "image": [
+          {
+            "image": "string",
+            "imageAlt": "string"
+          }
+        ]
+      }
+    },
+    "c-25": {
+      "name": "video-card",
+      "class": "gls-video-card",
+      "props": {
+        "date": "string",
+        "title": "string",
+        "video": "string",
+        "videoAlt": "string"
+      }
+    },
+    "c-26": {
+      "name": "exhibition-card",
+      "class": "gls-exhibition-card",
+      "props": {
+        "title": "string",
+        "location": "string",
+        "date": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-27": {
+      "name": "item-simple-card",
+      "class": "gls-item-simple-card",
+      "props": {
+        "title": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-28": {
+      "name": "item-hover-card",
+      "class": "gls-item-hover-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-29": {
+      "name": "item-card",
+      "class": "gls-item-card",
+      "props": {
+        "title": "string",
+        "text?": "string",
+        "titleColor?": "Colors",
+        "textColor?": "Colors",
+        "date?": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "type?": ["text-hover", "line-hover", "simple"],
+        "lang": ["fa", "en", "ru"]
+      }
+    },
+    "c-30": {
+      "name": "item-video-card",
+      "class": "gls-item-video-card",
+      "props": {
+        "title": "string",
+        "date?": "string",
+        "video": "string",
+        "videoAlt": "string"
+      }
+    },
+    "c-31": {
+      "name": "item-product-card",
+      "class": "gls-item-product-card",
+      "props": {
+        "topTitle": "string",
+        "title": "string",
+        "text?": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-32": {
+      "name": "item-simple-catalogue-card",
+      "class": "gls-item-simple-catalogue-card",
+      "props": {
+        "title": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-33": {
+      "name": "item-image-catalogue-card",
+      "class": "gls-item-image-catalogue-card",
+      "props": {
+        "title": "string",
+        "size": "string",
+        "format?": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-34": {
+      "name": "info-card",
+      "class": "gls-info-card",
+      "props": {
+        "title": "string",
+        "date": "string",
+        "text": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-35": {
+      "name": "item-price-card",
+      "class": "gls-item-price-card",
+      "props": {
+        "prices": [
+          {
+            "title": "string",
+            "currentPrice": "string",
+            "lastPriceChange": "string"
+          }
+        ],
+        "lang": "Languages"
+      }
+    },
+    "c-36": {
+      "name": "employment-card",
+      "class": "gls-employment-card",
+      "props": {
+        "title": "string",
+        "location": "string",
+        "job": "string",
+        "logo": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-37": {
+      "name": "companies-card",
+      "class": "gls-companies-card",
+      "props": {
+        "companies": [
+          {
+            "logo": "string",
+            "name": "string"
+          }
+        ],
+        "lang": "Languages"
+      }
+    },
+    "c-38": {
+      "name": "exhibition-item-card",
+      "class": "gls-exhibition-item-card",
+      "props": {
+        "date": "string",
+        "title": "string",
+        "text": "string",
+        "location": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-39": {
+      "name": "liner-item-card",
+      "class": "gls-liner-item-card",
+      "props": {
+        "title": "string",
+        "date": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "lang": "languages"
+      }
+    },
+    "c-40": {
+      "name": "job-card",
+      "class": "gls-job-card",
+      "props": {
+        "title": "string",
+        "location": "string",
+        "company": "string",
+        "logo": "string"
+      }
+    },
+    "c-41": {
+      "name": "three-d-card",
+      "class": "gls-three-d-card",
+      "props": {
+        "model": "string",
+        "size": "string",
+        "format": "string"
+      }
+    },
+    "c-42": {
+      "name": "tell-us-card",
+      "class": "gls-tell-us-card",
+      "props": {
+        "title": "string",
+        "phones": "string[]",
+        "postalCode": "string",
+        "fax": "string",
+        "email": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-43": {
+      "name": "companies-liner-card",
+      "class": "gls-companies-liner-card",
+      "props": {
+        "companies": "string[]"
+      }
+    },
+    "c-44": {
+      "name": "technology-card",
+      "class": "gls-technology-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "logo": "string"
+      }
+    },
+    "c-45": {
+      "name": "job-position-card",
+      "class": "gls-job-position-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-46": {
+      "name": "product-text-card",
+      "class": "gls-product-text-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "logos": "string[]",
+        "lang": "Languages"
+      }
+    },
+    "c-47": {
+      "name": "brand-card",
+      "class": "gls-brand-card",
+      "props": {
+        "title": "string",
+        "subTitle": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "logo": "string",
+        "lang": "Languages"
+      }
+    },
+    "c-48": {
+      "name": "bottom-text-image-card",
+      "class": "gls-bottom-text-image-card",
+      "props": {
+        "title": "string",
+        "text": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-49": {
+      "name": "bottom-right-text-image-card",
+      "class": "gls-bottom-right-text-image-card",
+      "props": {
+        "title": "string",
+        "text?": "string",
+        "image": "string",
+        "imageAlt": "string",
+        "type?": "'item'"
+      }
+    },
+    "c-50": {
+      "name": "text-box-card",
+      "class": "gls-text-box-card",
+      "props": {
+        "title": "string",
+        "logo": "string"
+      }
+    },
+    "c-51": {
+      "name": "product-box-card",
+      "class": "gls-product-box-card",
+      "props": {
+        "title": "string",
+        "image": "string",
+        "imageAlt": "string"
+      }
+    },
+    "c-52": {
+      "name": "custom-image",
+      "class": "gls-custom-image",
+      "props": {
+        "src": "string",
+        "alt": "string",
+        "style?": "CSSProperties",
+        "className?": "string"
+      }
+    }
+  }
+  
